@@ -1,0 +1,87 @@
+{
+	"products": [
+	  {
+		"id": 1,
+		"name": "Dell laptop x360 ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/59/063576/1.jpg?1525",
+		"description": "DELL Refurbished 10TH GEN DELL 3189 Pentium TouchScreen - X-360 Ram 4GB SSD 128GB -11.6",
+		"price":"Ksh.23,000",
+		"category":"electronics",
+		"product-id":"lap2"
+	  },
+	  {
+		"id": 2,
+		"name": "Tecno Obsidian ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/12/975675/1.jpg?1368",
+		"description": "Tecno Obsidian Black POVA NEO, 64GB ROM + 4GB RAM, 6.8'', 6000mAh",
+		"price":"Ksh.15,000",
+		"category":"electronics",
+		"product-id":"phone1"
+	  },
+	  {
+		"id": 3,
+		"name": "Vision Plus Frameless Tv ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/71/243985/1.jpg?7654",
+		"description": "Vision Plus Frameless 32 Digital HD LED TV - Black + FREE WALL MOUNT",
+		"price":"Ksh.11,000",
+		"category":"electronics",
+		"product-id":"tv6"
+	  },
+	  {
+		"id": 4,
+		"name": "WEYON Home Threater ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/490375/1.jpg?5967",
+		"description": "WEYON 816 3.1ch Blutooth Speaker Home Threater",
+		"price":"Ksh.5,000",
+		"category":"electronics",
+		"product-id":"woofer3"
+	  },
+	  {
+		"id": 5,
+		"name": "Oraimo Smart Watch",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/61/063155/1.jpg?0657",
+		"description": "Oraimo Smart Watch 1.69'' IPS Screen IP68 Waterproof",
+		"price":"Ksh.5,300",
+		"category":"Accessories",
+		"product-id":"smart1"
+	  },
+	  {
+		"id": 6,
+		"name": "Wlisth Men's Watch ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/365783/1.jpg?8050",
+		"description": "Wlisth Men's European Business Waterproof Watch - BLACK",
+		"price":"Ksh.1,000",
+		"category":"Watches",
+		"product-id":"watch3"
+	  },
+	  {
+		"id": 7,
+		"name": "Wireless-ouse",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/82/609516/1.jpg?7798",
+		"description": "Generic LED 2.4G Rechargeable Wireless Mouse",
+		"price":"Ksh.530",
+		"category":"Accessories",
+		"product-id":"mouse7"
+	  },
+	  {
+		"id": 8,
+		"name": "Sony-PS5 ",
+		"image": "https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/96/354633/1.jpg?7945",
+		"description": "Sony Computer Entertainment PS5 Playstation 5 Console Standard Disc Version 825GB",
+		"price":"Ksh.105,000",
+		"category":"Gaming",
+		"product-id":"ps1"
+	  }
+	],
+
+	"order":
+	[
+		{"id": 1,
+		"identity": "John Paul",
+		"product-id": "mzq",
+		"location": "Nairobi",
+		"category":"electronics"}
+	]
+  }
+
+  
