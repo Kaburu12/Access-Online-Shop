@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
 
 	return (  
-		<div id="logo" className="logo nav-common" > <nav id="nav">
+		<div id="logo" className="logo nav-common" >
+			<nav id="nav">
 			<ul className="nav-common">
 			<li><NavLink
         to="#"
