@@ -55,7 +55,14 @@ const Home = () => {
 					</Link>
 				</div>
 				</div>
-		</section>
+			</section>
+			<section>
+				<footer>
+					<h3>Access-Shop</h3>
+					<p>Designed by : Michael Kaburu | Contact : @infoaccessshop</p>
+					<p>Copyright © 2022</p> 
+				</footer>
+			</section>
 		</div>
 	
 		
