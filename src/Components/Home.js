@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
 	return ( 
 		<div className="home">
+			{/* product cards */}
 		<section id="products"> 
 	<div className="container">
 		<div className="products-header">
@@ -35,8 +36,26 @@ const Home = () => {
 			</figure>
 		</div>
 	</div>
+			</section>
+			{/* The brand collections */}
+		<section id="collections">
+	<div className="container">
+		<div className="c-1">
+			<div className="c-1-image-holder"> <img src="https://ke.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/79/365783/1.jpg?8050"/> </div>
+		</div>
+		<div className="c-2">
+			<h2>featured Brands</h2>
+			<hr />
+			<div className="c-2-image-holder">
+				<img className="left" src="https://bgr.com/wp-content/uploads/2020/10/apple-iphone-12-event-95.jpg?resize=1440,810" alt="" />
+				<img className="right" src="https://cdn.mos.cms.futurecdn.net/stWxmxQxthCyMxKosjKikc-970-80.jpg.webp" alt="" />
+					</div>
+					<Link to="/products">
+					<button  className="button">view all brands</button>
+					</Link>
+				</div>
+				</div>
 		</section>
-			
 		</div>
 	
 		
