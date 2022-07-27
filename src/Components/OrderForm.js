@@ -7,6 +7,13 @@ const OrderForm = () => {
 	const [location, setLocation] = useState("");
     const [ category, setCategory] = useState("");
 
+//a constant that holds new order data to be posted
+const orderItem = {
+	identity: identity,
+	location: location,
+	category: category,
+   
+};
 
 //posting order data using our fetch API
 fetch("https://server-app123.herokuapp.com/order", {
