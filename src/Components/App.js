@@ -41,7 +41,7 @@ function App() {
         <Route path="/products" element={<ProductList productContainer={products}/>} />
         <Route path="/about" element={< About />} />
         <Route path="/orderform" element={< OrderForm onAddOrder={ handleAddOrder} />} />
-        <Route path="/orders" element={< OrdersList orderList={ orders} />} />
+        <Route path="/orders" element={< OrdersList orderList={orders} />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </div>

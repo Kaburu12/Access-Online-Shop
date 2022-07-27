@@ -11,6 +11,7 @@ const ProductList = ({productContainer}) => {
 			image={product.image}
 			description={product.description}
 			category={product.category}
+			code={product.code}
 		/>
 		
 })

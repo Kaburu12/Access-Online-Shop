@@ -9,6 +9,10 @@ const OrdersList = ({ orderList }) => {
 			identity={order.identity}
 			category={order.category}
 			location={order.location}
+			review={order.review}
+			code={order.code}
+			product={order.product}
+			phone={order.phone}
 		/>
 })
 

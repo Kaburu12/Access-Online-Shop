@@ -322,6 +322,7 @@ footer{
 	margin-left: 10px;
 	margin-right: 10px;
 	width: 80%;
+	margin-bottom: 20px;
 }
 
 #my-orders{
@@ -334,8 +335,8 @@ footer{
 	box-shadow: 5px 5px 5px grey;
 	width: 20%;
 	font-size: 1.8rem;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
 	margin: 1px;
 	border-radius: 0px 25px 0px 25px;
 	
@@ -351,6 +352,11 @@ footer{
 .items label{
 	font-size: 15px;
 	margin-left: 15px;
+}
+.items textarea{
+	margin-left: 12px;
+	
+
 }
 
 /* fetched products section design */
@@ -413,9 +419,39 @@ footer{
 	text-align: center;
 }
 
-/* .orderform{
+.orderform{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	align-items: center;
-} */
+	
+}
+
+.orderform input {
+	width: 40%;
+	padding-top: 10px;
+	border-color: #FDB155;
+border-radius: 5px;
+	border-style: double;
+border-width: 6px ;
+}
+
+#form-header{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-weight: 600;
+	font-family: "Franklin Gothic Medium";
+}
+
+#form-container{
+	background-color: #B7B7B7;
+	margin-left: 300px;
+	margin-right: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#form-container button{
+	margin-top: 10px;
+}
