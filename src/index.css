@@ -354,7 +354,7 @@ footer{
 }
 
 /* fetched products section design */
-/* #productsList {
+#productsList {
 	display: block;
 	width: 90%;
 	margin: 0 auto;
@@ -410,4 +410,4 @@ footer{
 	font-style: italic;
 	line-height: 1.5;
 	text-align: center;
-} */ 
+} 
