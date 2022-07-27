@@ -24,8 +24,10 @@ const ProductList = ({productContainer}) => {
 					<hr />
 			<p><span> Black Friday | order now !!!!</span></p>
 		</div>
-	    </div>
-            {productsArray}
+		</div>
+		<div id="container-products">
+				{productsArray}
+		</div>
 		</div>
 	 );
 }

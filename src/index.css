@@ -252,7 +252,6 @@ nav ul li a {
 	-ms-flex: 1;
 	flex: 1;
 	padding: 1rem;
-	/*  background-color:  #f5f2f1;*/
 }
 
 #collections .container .c-2 h2 {
@@ -318,13 +317,30 @@ footer{
   background-color: #FDB155;
 }
 
+#my-orders{
+	background-color: #C3DEF0;
+	padding: 20px 20px;
+}
+
+#time{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#FDB155;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 8px;
+}
+
+#orders hr{
+	margin-bottom: 10px;
+}
 
 .item-container{
 	display: flex;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 80%;
+	flex-wrap: wrap;
 	margin-bottom: 20px;
+	align-items: center;
 }
 
 #my-orders{
@@ -335,14 +351,13 @@ footer{
 	border: #000000;
 	background-color:#a61458;
 	box-shadow: 5px 5px 5px grey;
-	width: 20%;
+	width: 22%;
 	font-size: 1.8rem;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	margin: 1px;
+	margin-left: 30px;
 	border-radius: 0px 25px 0px 25px;
-	
-
+	margin-bottom: 20px;
 }
 
 .items input{
@@ -358,9 +373,9 @@ footer{
 	color: #ffffff;
 }
 .items textarea{
-	margin-left: 12px;
-	
-
+	margin-left: 21px;
+	padding-left: 10px;
+	padding-top: 10px;
 }
 
 /* fetched products section design */
@@ -371,10 +386,11 @@ footer{
 	font-size: 0;
 } */
 
-.container-products{
-   display: flex;
-	flex-direction: row;
+#container-products{
+  display: flex;
+	flex-wrap: wrap;
 	width: 90%;
+	margin-left: 12%;
 	
 }
 
@@ -413,7 +429,8 @@ footer{
 	padding: 8px 15px 8px 15px;
 	border-radius: 15px;
 	font-size: 0.9rem;
-	background-color:#C3DEF0
+	background-color:#C3DEF0;
+	position: relative;
 }
 
 .products-header {

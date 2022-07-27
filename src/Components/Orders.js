@@ -2,9 +2,7 @@ import React from "react";
 
 const Orders = ({identity,category,location,review,code,product,phone}) => {
 	return (  
-		<div className="orders">
-			<h1 id="my-orders">My orders</h1>
-			<div className="item-container">
+		
 				<div className="items">
 				    <label htmlFor="">Name : </label>
 					<input type="text" value={identity} /> 
@@ -19,11 +17,8 @@ const Orders = ({identity,category,location,review,code,product,phone}) => {
 					<label htmlFor="">Category :</label>
 					<input type="text" value={category} />
 					<label htmlFor="">Review :</label>
-					<textarea name="" id="" cols="20" rows="8">{review }</textarea>
+					<textarea name="" id="" cols="25" rows="8">{review }</textarea>
 			</div>
-			</div>
-			
-		</div>
 	);
 }
  

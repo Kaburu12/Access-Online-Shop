@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 const Product = ({name,image,price,category,code,description}) => {
 	return ( 	
-	 <div className="container-products">
 		<div className="each-product">
-					<img id="img-product" src={image} alt="img" />
+				     <div>
+					 <img id="img-product" src={image} alt="img" />
 				    <p><span>{name}</span> </p>
 				    <p>{description} </p>
 					<p><span>{category}</span></p>
@@ -14,9 +14,8 @@ const Product = ({name,image,price,category,code,description}) => {
 					<Link to="/orderform"> 
 					<button className="button">Order Now</button>
 					</Link>
-	     </div>
-	</div>
-		
+					</div>
+		</div>
 	 );
 }
  

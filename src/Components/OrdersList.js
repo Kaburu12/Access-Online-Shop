@@ -1,7 +1,21 @@
 import React from "react";
 import Orders from "./Orders";
-
+import { useEffect,useState } from "react";
 const OrdersList = ({ orderList }) => {
+
+	const [time, setTime] = useState(new Date());
+
+	const timerId=useEffect(() => {
+	  setInterval(() => {
+		setTime(new Date());
+	  }, 1000);
+  
+	 // returning a cleanup function incase of unmount of clock component
+	 return function cleanup() {
+	  clearInterval(timerId);
+	};
+	}, []);
+  
 
 	const myOrders = orderList.map((order) => {
 		return <Orders
@@ -17,9 +31,15 @@ const OrdersList = ({ orderList }) => {
 })
 
 	return ( 
-		<div>
-         {myOrders}
-		</div>
+		<div id="orders">
+			<h1 id="my-orders">My orders</h1>
+			<hr />
+			<div id="time">{time.toString()}</div>
+			<div className="item-container">
+				{myOrders}
+			</div>
+		
+		</div >
 	 );
 }
  
