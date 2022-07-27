@@ -278,7 +278,7 @@ nav ul li a {
 #collections .container .c-2 .button {
   border-color: #a61458;
   border-style: double;
-  box-shadow: 3px 5px 5px grey;
+  box-shadow: 3px 6px 7px grey;
 	width: 45%;
   margin-left: 200px;
   border-radius: 10px;
@@ -289,6 +289,7 @@ nav ul li a {
 	font-size: 0.9rem;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
+	background-color: #FDB155;
 }
 
 
@@ -307,13 +308,14 @@ nav ul li a {
 
 .button{
 	cursor: pointer;
+	
 }
 
 footer{
   text-align: center;
   margin-top:100px ;
   padding: 20px;
-  background-color: #C2C2C2;
+  background-color: #FDB155;
 }
 
 
@@ -331,7 +333,7 @@ footer{
 
 .items{
 	border: #000000;
-	background-color:#FDB155;
+	background-color:#a61458;
 	box-shadow: 5px 5px 5px grey;
 	width: 20%;
 	font-size: 1.8rem;
@@ -352,6 +354,8 @@ footer{
 .items label{
 	font-size: 15px;
 	margin-left: 15px;
+	font-weight: 300;
+	color: #ffffff;
 }
 .items textarea{
 	margin-left: 12px;
@@ -387,8 +391,18 @@ footer{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 	opacity: 1;
-  background-color:#B7B7B7;
+  background-color: #FDB155;
   margin: 2px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.each-product button{
+	margin-top: 1.0rem;
+	padding: 8px 15px 8px 15px;
+	border-radius: 15px;
+	font-size: 0.9rem;
+	background-color:#C3DEF0
 }
 
 .products-header {
@@ -410,6 +424,13 @@ footer{
 	position: relative;
 }
 
+.products-header hr{
+	background-color: #CF5898;
+	padding: 2px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
 .products-header p {
 	font-family: Cambria;
 	color: rgba(89, 89, 89, 1);
@@ -417,6 +438,7 @@ footer{
 	font-style: italic;
 	line-height: 1.5;
 	text-align: center;
+	margin-top: 10px;
 }
 
 .orderform{
@@ -454,4 +476,15 @@ border-width: 6px ;
 
 #form-container button{
 	margin-top: 10px;
+	padding:10px 20px 10px 20px;
+	border-radius: 15px;
+	font-size: 1.0rem;
+	background-color: #CF5898;
+	color: #ffffff;
+	cursor: pointer;
+	border-color: #000000;
+	box-shadow: 5px 8px 5px grey;
+}
+#form-container button:hover{
+	color: #000000
 }

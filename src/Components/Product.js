@@ -8,7 +8,7 @@ const Product = ({name,image,price,category,code,description}) => {
 					<img id="img-product" src={image} alt="img" />
 				    <p><span>{name}</span> </p>
 				    <p>{description} </p>
-					<p>{category}</p>
+					<p><span>{category}</span></p>
 				    <p>{price}</p>
 				    <p>Code : { code}</p>
 					<Link to="/orderform"> 

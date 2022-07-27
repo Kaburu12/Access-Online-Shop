@@ -20,7 +20,8 @@ const ProductList = ({productContainer}) => {
 		<div>
 		<div className="product-list">
             <div className="products-header">
-			<h2 id="header">Top Selling Items</h2>
+					<h2 id="header">Top Selling Items</h2>
+					<hr />
 			<p><span> Black Friday | order now !!!!</span></p>
 		</div>
 	    </div>
