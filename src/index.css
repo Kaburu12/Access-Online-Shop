@@ -354,16 +354,17 @@ footer{
 }
 
 /* fetched products section design */
-#productsList {
+/* #productsList {
 	display: block;
 	width: 90%;
 	margin: 0 auto;
 	font-size: 0;
-}
+} */
 
 .container-products{
-
+   display: flex;
 	flex-direction: row;
+	width: 100%;
 	
 }
 
@@ -411,3 +412,10 @@ footer{
 	line-height: 1.5;
 	text-align: center;
 }
+
+/* .orderform{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+} */

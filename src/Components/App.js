@@ -20,12 +20,12 @@ function App() {
     .then((products)=>setProducts(products))
   },[])
 
-  // //fecthing order data
-  // useEffect(() => {
-  //   fetch("https://server-app123.herokuapp.com/order")
-  //     .then((res) => res.json())
-  //   .then((orders)=>setOrders(orders))
-  // })
+  //fecthing order data
+  useEffect(() => {
+    fetch("https://server-app123.herokuapp.com/order")
+      .then((res) => res.json())
+    .then((orders)=>setOrders(orders))
+  })
   
 
   return (
