@@ -8,7 +8,7 @@ const Home = () => {
 		<section id="products"> 
 	<div className="container">
 		<div className="products-header">
-			<h2>popular products</h2>
+			<h2 id="header">popular products</h2>
 			<p>Flash Sales | Deals you can't miss order now !!!!</p>
 		</div>
 		<div className="product product-1">

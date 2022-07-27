@@ -74,13 +74,16 @@
 	  }
 	],
 
-	"order":
+	"orders":
 	[
 		{"id": 1,
-		"identity": "John Paul",
-		"product-id": "mzq",
+		"full name": "John Paul",
+		"product-code": "mzq",
+		"product-name":"iphone",
 		"location": "Nairobi",
-		"category":"electronics"}
+		"category":"electronics",
+		"review":"great price"
+	}
 	]
   }
 

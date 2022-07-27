@@ -83,14 +83,60 @@ nav .nav-icon {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+	header nav {
+		height: 5rem;
+		line-height: 5rem;
+	}
+	header nav .logo {
+		width: 45%;
+	}
+	header nav .nav-icon img {
+		margin-top: 1.4rem;
+	}
+	header nav ul {
+		width: 20%;
+		display: none;
+	}
+	header nav ul li {
+		display: none;
+	}
+
+nav ul li a {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 8px;
+	font-weight: 500;
+	text-decoration: none;
+}
+	header nav .cart {
+		width: 10%;
+		text-align: right;
+	}
+	header nav .menu {
+		width: 10%;
+	}
+
+	#header {
+		text-transform: uppercase;
+		font-family: "Franklin Gothic Medium";
+		color: #000000;
+		font-weight: 400;
+		text-align: center;
+		margin-top: 100px;
+
+	}
+}
+
 #products {
 	width: 100%;
+	display: flex;
 }
 
 /* styling the product cards */
 #products .container {
 	display: block;
-	width: 80%;
+	width: 76%;
 	margin: 0 auto;
 	font-size: 0;
 }
@@ -111,6 +157,7 @@ nav .nav-icon {
 	letter-spacing: 0.2rem;
 	line-height: 1;
 	text-align: center;
+	position: relative;
 }
 
 #products .container .products-header p {
@@ -145,7 +192,7 @@ nav .nav-icon {
 	transition: -webkit-transform 1s ease-in-out 0s;
 	transition: transform 1s ease-in-out 0s;
 	transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
-	cursor: pointer;
+
 }
 
 #products .container .product figure img {
@@ -258,9 +305,109 @@ nav .nav-icon {
 	box-shadow: 3px 5px 8px grey;
 }
 
+.button{
+	cursor: pointer;
+}
+
 footer{
   text-align: center;
   margin-top:100px ;
   padding: 20px;
   background-color: #C2C2C2;
 }
+
+
+.item-container{
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 80%;
+}
+
+#my-orders{
+	text-align: center;
+}
+/* 
+.items{
+	border: #000000;
+	background-color:#FDB155;
+	box-shadow: 5px 5px 5px grey;
+	width: 20%;
+	font-size: 1.8rem;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 1px;
+	border-radius: 0px 25px 0px 25px;
+	
+
+}
+
+.items input{
+	width: 80%;
+	margin-left: 22px;
+	
+}
+
+.items label{
+	font-size: 15px;
+	margin-left: 15px;
+}
+
+/* fetched products section design */
+/* #productsList {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.container-products{
+
+	flex-direction: row;
+	
+}
+
+
+#img-product {
+	width: 100%;
+	height: auto;
+}
+.each-product{
+	width: 20%;
+	font-size: 16px;
+	text-align: center;
+	padding: 0.8rem;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+  background-color:#B7B7B7;
+  margin: 2px;
+}
+
+.products-header {
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.products-header h2 {
+	padding: 2rem 1rem;
+	text-transform: uppercase;
+	font-family: "Franklin Gothic Medium";
+	color: #000000;
+	font-size: 1.875rem;
+	font-weight: 400;
+	letter-spacing: 0.2rem;
+	line-height: 1;
+	text-align: center;
+	position: relative;
+}
+
+.products-header p {
+	font-family: Cambria;
+	color: rgba(89, 89, 89, 1);
+	font-size: 1rem;
+	font-style: italic;
+	line-height: 1.5;
+	text-align: center;
+} */ 
