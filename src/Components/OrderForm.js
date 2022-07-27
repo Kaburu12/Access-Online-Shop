@@ -1,13 +1,14 @@
 import React from "react";
 import { useState } from "react";
 
-const OrderForm = () => {
+const OrderForm = (onAddOrder) => {
  //usestate return order item values that hold the state values to be posted
 	const [ identity, setIdentity ] = useState("");
 	const [location, setLocation] = useState("");
 	const [ category, setCategory ] = useState("");
 	
 	function handleSubmit(event) {
+		event.preventDefault()
 		//a constant that holds new order data to be posted
 		const orderItem = {
 			identity: identity,
@@ -24,8 +25,7 @@ const OrderForm = () => {
 		})
 			.then((r) => r.json())
 			//new posted order
-			.then((newOrder) => (newOrder));
-
+			.then((newOrder) => onAddOrder(newOrder));
 	}
 	return ( 
 		<div>

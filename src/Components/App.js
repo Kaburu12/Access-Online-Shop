@@ -26,7 +26,12 @@ function App() {
       .then((res) => res.json())
     .then((orders)=>setOrders(orders))
   })
-  
+
+     //a function meant to update orders state on adding new orders
+     function handleAddOrder(newOrder) {
+      setOrders([ ...orders, newOrder ]);
+    } 
+
 
   return (
    
@@ -35,7 +40,7 @@ function App() {
       <Routes>
         <Route path="/products" element={<ProductList productContainer={products}/>} />
         <Route path="/about" element={< About />} />
-        <Route path="/orderform" element={< OrderForm />} />
+        <Route path="/orderform" element={< OrderForm onAddOrder={ handleAddOrder} />} />
         <Route path="/orders" element={< OrdersList orderList={ orders} />} />
         <Route path="/" element={<Home />} />
       </Routes>
