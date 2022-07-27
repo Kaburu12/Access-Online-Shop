@@ -3,17 +3,17 @@ import Product from "./Product";
 
 const ProductList = ({productContainer}) => {
 
-// 	const productsArray = productContainer.map((product) => {
+	const productsArray = productContainer.map((product) => {
 	
-// 		return <Product
-// 			key={product.id}
-// 			name={product.name}
-// 			image={product.image}
-// 			description={product.description}
-// 			category={product.category}
-// 		/>
+		return <Product
+			key={product.id}
+			name={product.name}
+			image={product.image}
+			description={product.description}
+			category={product.category}
+		/>
 		
-// })
+})
 
 	return ( 
 		<div>
