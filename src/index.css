@@ -374,7 +374,7 @@ footer{
 .container-products{
    display: flex;
 	flex-direction: row;
-	width: 100%;
+	width: 90%;
 	
 }
 
@@ -392,9 +392,20 @@ footer{
 	transform: scale(1);
 	opacity: 1;
   background-color: #FDB155;
-  margin: 2px;
+  margin: 6px;
   border-radius: 10px;
   box-shadow: 5px 5px 5px grey;
+}
+
+.each-product:hover {
+	background: #C3DEF0;
+	box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+	-webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	margin-top: 50px;
 }
 
 .each-product button{
