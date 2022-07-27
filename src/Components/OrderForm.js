@@ -28,7 +28,30 @@ fetch("https://server-app123.herokuapp.com/order", {
 
 
 	return ( 
-		<div>form</div>
+		<div>
+		<div>Enter Your Correct Information To Order</div>
+		<form className="orderform" >
+		<input
+		  type="text"
+		  placeholder="identity"
+		  name="identity"
+		  value={identity}
+		 onChange={(e) => setIdentity(e.target.value)} />
+			<input
+		  type="text"
+		  placeholder="location"
+		  name="location"
+		  value={location}
+		  onChange={(e) => setLocation(e.target.value)}/>		
+			<input
+		  type="text"
+		  placeholder="category"
+		  name="category"
+		  value={category}
+		 onChange={(e) => setCategory(e.target.value)} />
+		 <input type="submit" value="Click To Order" />	
+	     </form>
+	    </div>
 	 );
 }
  
