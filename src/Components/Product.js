@@ -6,7 +6,7 @@ const Product = ({name,image,price,category,description}) => {
 	<div id="productsList"> 	
 	 <div className="container-products">
 		<div className="each-product">
-		 {/* <figure >
+		 <figure >
 			        <img id="img-product" src={image} alt="img" />
 			        <figcaption>name:{ name}</figcaption>
 							<figcaption>price: { price}</figcaption>
@@ -15,7 +15,7 @@ const Product = ({name,image,price,category,description}) => {
 					<Link to="/orderform"> 
 							<button className="button">Order Now</button>
 					</Link>
-		</figure> */}
+		</figure>
 	  </div>
 	</div>
 	</div>
