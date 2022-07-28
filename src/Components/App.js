@@ -7,8 +7,6 @@ import Home from "./Home";
 import OrdersList from "./OrdersList";
 import OrderForm from "./OrderForm";
 
-
-
 function App() {
   const [ products, setProducts ] = useState([])
   const [ orders, setOrders ] = useState([])
@@ -34,7 +32,6 @@ function App() {
 
 
   return (
-   
     <div>
       <NavBar />
       <Routes>
@@ -44,6 +41,7 @@ function App() {
         <Route path="/orders" element={< OrdersList orderList={orders} />} />
         <Route path="/" element={<Home />} />
       </Routes>
+    
     </div>
   );
 }

@@ -2,7 +2,6 @@ import React from "react";
 
 const Orders = ({identity,category,location,review,code,product,phone}) => {
 	return (  
-		
 				<div className="items">
 				    <label htmlFor="">Name : </label>
 					<input type="text" value={identity} /> 

@@ -109,7 +109,7 @@ nav ul li a {
 	font-weight: 500;
 	text-decoration: none;
 }
-	header nav .cart {
+    header nav .cart {
 		width: 10%;
 		text-align: right;
 	}
@@ -124,7 +124,6 @@ nav ul li a {
 		font-weight: 400;
 		text-align: center;
 		margin-top: 100px;
-
 	}
 }
 
@@ -192,7 +191,6 @@ nav ul li a {
 	transition: -webkit-transform 1s ease-in-out 0s;
 	transition: transform 1s ease-in-out 0s;
 	transition: transform 1s ease-in-out 0s, -webkit-transform 1s ease-in-out 0s;
-
 }
 
 #products .container .product figure img {
@@ -201,9 +199,6 @@ nav ul li a {
 }
 
 /* styling the featured brands */
-
-
-
 #collections {
 	width: 90% ;
 	display: block;
@@ -515,4 +510,67 @@ border-width: 6px ;
 }
 #form-container button:hover{
 	color: #000000
+}
+
+#about  {
+background-image :url(https://dxlm84u5gf2hs.cloudfront.net/wp-content/uploads/2018/05/Fotolia_188160876_S.jpg);
+background-size: cover;
+    background-position: center;
+    height: 71vh;
+    margin: 1px;
+}
+
+#about h1{
+	color:#000000;
+text-align: center;
+padding-top: 20px;
+font-style: italic;
+margin-left: 700px;
+}
+
+#about p{
+	float: right;
+	padding-top: 20px;
+	text-align: center;
+	margin-right: 25px;
+}
+
+.our-mission{
+	width: 100%;
+}
+
+#about h3{
+	float: right;
+	width: 80%;
+
+}
+
+.about-left{
+	margin-top: 110px;
+	margin-left: 150px;
+	margin-right: 800px;
+	background-color:#B7B7B7;
+	padding: 10px;
+	border-radius: 0px 40px 0px 40px;
+
+}
+
+.about-left ul li img{
+	width: 30px;
+	height: auto;
+	margin-right: 6px;
+	margin-top: 3px;
+}
+
+.about-left ul li{
+	list-style: none;
+	padding-left: 20px;
+}
+
+.about-left h2{
+	padding-left: 20px;
+}
+
+#about-container{
+	background-color:#C3DEF0;
 }

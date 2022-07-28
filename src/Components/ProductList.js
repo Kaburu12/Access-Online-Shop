@@ -27,7 +27,14 @@ const ProductList = ({productContainer}) => {
 		</div>
 		<div id="container-products">
 				{productsArray}
-		</div>
+			</div>
+			<section>
+				<footer>
+					<h3>Access-Shop</h3>
+					<p>Designed by : Michael Kaburu | Contact : @infoaccessshop</p>
+					<p>Copyright © 2022</p> 
+				</footer>
+			</section>
 		</div>
 	 );
 }
