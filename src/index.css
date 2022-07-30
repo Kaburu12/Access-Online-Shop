@@ -124,6 +124,16 @@ nav .nav-icon {
     text-align: center;
     margin-top: 100px;
   }
+
+  .items textarea{
+    width: 100px;
+    height: auto;
+  }
+
+  #myorders{
+    font-size: 10px;
+    padding-top: 60px;
+  }
 }
 
 #products {
