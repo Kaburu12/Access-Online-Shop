@@ -329,9 +329,10 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #fdb155;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 350px;
+  margin-right: 350px;
   margin-bottom: 8px;
+  border-radius: 30px;
 }
 
 #orders hr {
@@ -380,13 +381,6 @@ footer {
 }
 
 /* fetched products section design */
-/* #productsList {
-	display: block;
-	width: 90%;
-	margin: 0 auto;
-	font-size: 0;
-} */
-
 #container-products {
   display: flex;
   flex-wrap: wrap;
