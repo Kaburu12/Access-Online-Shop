@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const OrderForm = (onAddOrder) => {
   //usestate return order item values that hold the state values to be posted
@@ -83,7 +84,8 @@ const OrderForm = (onAddOrder) => {
 		  name="review"
 		  value={review}
 		onChange={(e) => setReview(e.target.value)} />	
-		<button type="submit">Click To Order</button> 		
+				  <button type="submit">Click To Order</button> 
+			<Link to="/orders"><button>Check My Orders</button>	</Link>
 			</form>
 			</div>
 	    </div>
