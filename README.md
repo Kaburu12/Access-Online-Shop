@@ -8,6 +8,7 @@ The project uses the HTML ,CSS and JAVA SCRIPT,REACT.JS languages to program thi
 3) The app has a product page where one can view top products and can click to order.
 4) On ordering ,a customer is directed to a form where he/she fills her order details ,make a review and clicks on order .
 5) After making an order , a customer is able to check the orders at "my order" section.
+6) A customer is also able to delete an order.
 6) The app also has an about section that consists of store details and contact.
 
 ## Project-Setup-Instructions
