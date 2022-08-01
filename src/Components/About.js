@@ -28,28 +28,28 @@ const About = () => {
             </li>
             <li>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/2374/premium/2374449.png?token=exp=1659009173~hmac=343e37d0b78e6b3d8d45dc3515636207"
+                src="https://cdn-icons.flaticon.com/png/512/3178/premium/3178158.png?token=exp=1659353501~hmac=fce2315992956211adcbd1b7549be8e9"
                 alt="icons"
               />{" "}
               @infoaccess-shop
             </li>
             <li>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494475.png?token=exp=1659008117~hmac=2809bfb15427bb99a937443801518018"
+                src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494479.png?token=exp=1659353198~hmac=00d9bf86c36ac8fdbb6448629804e72b"
                 alt="icons"
               />
               Facebook
             </li>
             <li>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1659008117~hmac=35931595acc4f14d6639945e57fb002b"
+                src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1659353198~hmac=5d4057a43377412394470562690a0ee4"
                 alt="icons"
               />
               Linkedin
             </li>
             <li>
               <img
-                src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494477.png?token=exp=1659008117~hmac=6b01430401e3a2dae4544c48686706e9"
+                src="https://cdn-icons-png.flaticon.com/512/733/733579.png"
                 alt="icons"
               />
               Twitter
