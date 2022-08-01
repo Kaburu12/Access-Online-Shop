@@ -363,6 +363,13 @@ footer {
   margin-bottom: 20px;
 }
 
+.items div button{
+  margin-left: 230px;
+  cursor: pointer;
+  background-color: #fdb155;
+  font-size: x-large;
+}
+
 .items input {
   width: 80%;
   margin-left: 22px;

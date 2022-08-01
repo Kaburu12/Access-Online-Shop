@@ -1,6 +1,7 @@
 import React from "react";
 
 const Orders = ({
+  order,
   identity,
   category,
   location,
@@ -8,9 +9,21 @@ const Orders = ({
   code,
   product,
   phone,
+  onDeleteOrder
 }) => {
+
+  function handleDeleteClick() {
+    fetch(`https://server-app123.herokuapp.com/order/${order.id}`, {
+      method: "DELETE",
+    })
+    .then((r) => r.json())
+    .then(() => onDeleteOrder(order));
+  
+  }
+
   return (
     <div className="items">
+      <div><button onClick={handleDeleteClick}>X</button></div> 
       <label htmlFor="">Name : </label>
       <input type="text" value={identity} />
       <label htmlFor="">Phone Contact : </label>

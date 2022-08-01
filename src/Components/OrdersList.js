@@ -1,7 +1,7 @@
 import React from "react";
 import Orders from "./Orders";
 import { useEffect, useState } from "react";
-const OrdersList = ({ orderList }) => {
+const OrdersList = ({ orderList, onDeleteOrder}) => {
   const [time, setTime] = useState(new Date());
   const timerId = useEffect(() => {
     setInterval(() => {
@@ -16,6 +16,7 @@ const OrdersList = ({ orderList }) => {
   const myOrders = orderList.map((order) => {
     return (
       <Orders
+        order={order}
         key={order.id}
         identity={order.identity}
         category={order.category}
@@ -24,6 +25,7 @@ const OrdersList = ({ orderList }) => {
         code={order.code}
         product={order.product}
         phone={order.phone}
+        onDeleteOrder={onDeleteOrder}
       />
     );
   });

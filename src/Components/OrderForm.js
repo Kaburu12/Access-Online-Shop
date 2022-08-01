@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const OrderForm = (onAddOrder) => {
+const OrderForm = ({ onAddOrder }) => {
   //usestate return order item values that hold the state values to be posted
   const [identity, setIdentity] = useState("");
   const [location, setLocation] = useState("");

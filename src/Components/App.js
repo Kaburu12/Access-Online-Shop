@@ -30,6 +30,11 @@ function App() {
     setOrders([...orders, newOrder]);
   }
 
+  function handleDeleteOrder(deleteOrder) {
+    const updatedOrders = orders.filter((order) => order.id !== deleteOrder.id);
+  setOrders(updatedOrders);
+  }
+ 
   return (
     <div>
       <NavBar />
@@ -43,7 +48,7 @@ function App() {
           path="/orderform"
           element={<OrderForm onAddOrder={handleAddOrder} />}
         />
-        <Route path="/orders" element={<OrdersList orderList={orders} />} />
+        <Route path="/orders" element={<OrdersList orderList={orders} onDeleteOrder={ handleDeleteOrder} />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </div>
